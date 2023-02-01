@@ -1,4 +1,4 @@
-import {FC, useRef, useState} from "react";
+import React, {FC, useRef, useState} from "react";
 import style from 'styles/Buttons.module.css'
 import {BsPlay, BsStop} from 'react-icons/bs';
 

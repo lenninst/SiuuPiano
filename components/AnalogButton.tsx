@@ -1,4 +1,4 @@
-import React, {FC, useState} from 'react';
+import React, {FC, useState} from "react";
 import style from '/styles/Buttons.module.css';
 import Image from "next/image";
 import PianoKey from "@/components/PianoKey";

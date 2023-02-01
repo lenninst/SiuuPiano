@@ -1,6 +1,7 @@
 
 import style from '../styles/Piano.module.css'
-import {FC} from "react";
+import React, {FC} from 'react';
+
 
 import PianoKey from "@/components/PianoKey";
 

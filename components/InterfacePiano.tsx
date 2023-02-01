@@ -1,4 +1,4 @@
-import {FC} from 'React';
+import React, {FC} from 'react';
 import style from 'styles/InterfacePiano.module.css';
 import Piano from "@/components/piano";
 import AnalogButton from "@/components/AnalogButton";
