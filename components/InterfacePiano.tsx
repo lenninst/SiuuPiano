@@ -3,7 +3,7 @@ import style from 'styles/InterfacePiano.module.css';
 import Piano from "@/components/piano";
 import AnalogButton from "@/components/AnalogButton";
 import PlayButton from "@/components/PlayButton";
-import PianoKey from "@/components/PianoKey";
+
 
 const InterfacePiano:FC = () =>{
   return (
