@@ -1,12 +1,15 @@
-import React, {FC} from 'react';
+import React, { FC } from 'react';
 import style from 'styles/InterfacePiano.module.css';
 import Piano from "@/components/piano";
 import AnalogButton from "@/components/AnalogButton";
 import PlayButton from "@/components/PlayButton";
 
 
-const InterfacePiano:FC = () =>{
+const InterfacePiano: FC = () => {
   return (
+
+    <div className={style.piano_main_content}>
+      <h1 className={style.title}>Piano CR7</h1>
       <div className={style.Interface_piano}>
 
         <div className={style.piano_elements_content}>
@@ -15,7 +18,6 @@ const InterfacePiano:FC = () =>{
             <div className={style.control_panel}>
               <div className={style.circle_animation}></div>
               <div className={style.circle_animation}></div>
-
 
             </div>
             <div className={style.button_content}>
@@ -30,13 +32,16 @@ const InterfacePiano:FC = () =>{
               <PlayButton />
             </div>
 
-            <Piano/>
+            <Piano />
           </div>
 
 
         </div>
 
       </div>
+
+
+    </div>
   )
 }
 export default InterfacePiano;
