@@ -10,6 +10,7 @@ export default function MidiComponent() {
         console.log('✅ WebMidi habilitado');
 
         // Listar entradas disponibles
+        // esto se puede usar para verificar si el dispositivo MIDI está conectado
         WebMidi.inputs.forEach((input) => {
           console.log('🎹 Detectado:', input.name);
 
