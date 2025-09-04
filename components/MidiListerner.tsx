@@ -10,6 +10,7 @@ export default function MidiComponent() {
         console.log('✅ WebMidi habilitado');
 
         // Listar entradas disponibles
+        //
         WebMidi.inputs.forEach((input) => {
           console.log('🎹 Detectado:', input.name);
 
@@ -26,5 +27,5 @@ export default function MidiComponent() {
       .catch((err) => console.error('❌ Error habilitando WebMidi:', err));
   }, []);
 
-  return <div>Conecta tu controlador MIDI</div>;
+  return <div></div>;
 }
