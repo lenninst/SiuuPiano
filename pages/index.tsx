@@ -17,8 +17,8 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main className={styles.main}>
+        {/* este es un test */}
         <MidiComponent />
-
         <InterfacePiano />
       </main>
     </>
