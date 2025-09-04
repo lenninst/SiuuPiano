@@ -1,92 +1,92 @@
 .button_elements_content {
-    background-color: var(--color-interface);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 125px;
-    height: 164px;
-    border-radius: 10px;
+  background-color: var(--color-interface);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  height: 164px;
+  border-radius: 10px;
 }
 
 .button_circle {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: var(--color-buttons);
-    box-shadow:  10px 10px 20px #6c6c6c,
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--color-buttons);
+  box-shadow:
+    10px 10px 20px #6c6c6c,
     -10px -10px 20px rgba(255, 255, 255, 0.46);
 }
 .button_circle:hover {
-    cursor: pointer;
+  cursor: pointer;
 
-    box-shadow:  5px 5px 30px #bebebe,
+  box-shadow:
+    5px 5px 30px #bebebe,
     -5px -5px 10px #ffffff;
 }
 .button_circle:hover:before {
-    box-shadow: inset 10px 10px 10px #bebebe,
+  box-shadow:
+    inset 10px 10px 10px #bebebe,
     inset -10px -10px 30px #ffffff;
-
 }
 
 .button_circle_line {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 10px #FF8181;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 10px #ff8181;
 }
 
 /*................VIDEO PLAY .................*/
 
 .video_content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 10px;
-    margin-right: 10px;
-    background-color: var(--color-interface);
-    height: 230px;
-    width: 143px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: var(--color-interface);
+  height: 230px;
+  width: 143px;
 }
 .video {
-
-    border-radius: 10px;
-    margin-left: 6px;
-    width: 100px;
-    margin-top: 20px;
-    box-shadow:  2px 2px 4px #393449,
+  border-radius: 10px;
+  margin-left: 6px;
+  width: 100px;
+  margin-top: 20px;
+  box-shadow:
+    2px 2px 4px #393449,
     -3px -3px 4px #373346;
-
 }
 .play_button {
-
-    margin-left: 3px;
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    background-color: var(--color-interface);
-    border: none;
-    border-radius: 10px;
-    width: 105px;
-    height: 59px;
-    cursor: pointer;
-    box-shadow:  2px 2px 4px #9b9b9b,
+  margin-left: 3px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  background-color: var(--color-interface);
+  border: none;
+  border-radius: 10px;
+  width: 105px;
+  height: 59px;
+  cursor: pointer;
+  box-shadow:
+    2px 2px 4px #9b9b9b,
     -3px -3px 4px #c0c0c0;
-
 }
 .play_button:hover {
-    background-color: #c4c0c0;
-    box-shadow:  4px 4px 4px #9b9b9b,
+  background-color: #c4c0c0;
+  box-shadow:
+    4px 4px 4px #9b9b9b,
     -3px -3px 4px #ffffff;
 }
-.play_button:hover:before{
-    box-shadow: inset 5px 5px 4px #9b9b9b,
+.play_button:hover:before {
+  box-shadow:
+    inset 5px 5px 4px #9b9b9b,
     inset -5px -5px 4px #ffffff;
-
 }
