@@ -10,7 +10,6 @@ export default function MidiComponent() {
         console.log('✅ WebMidi habilitado');
 
         // Listar entradas disponibles
-        //
         WebMidi.inputs.forEach((input) => {
           console.log('🎹 Detectado:', input.name);
 
